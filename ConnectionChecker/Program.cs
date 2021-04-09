@@ -29,8 +29,7 @@ namespace ConnectionChecker
                     {
                             Console.ForegroundColor = ConsoleColor.Red;
                     }
-
-                       Console.WriteLine(xcon.RemoteEndPoint.Address + ":" + xcon.RemoteEndPoint.Port + " \t\t\t" + xcon.State);
+                     Console.WriteLine(xcon.RemoteEndPoint.Address + ":" + xcon.RemoteEndPoint.Port + " \t\t\t" + xcon.State);
                 }
 
             }
